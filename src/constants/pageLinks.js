@@ -7,22 +7,22 @@ const pageLinks = [
   {
     id: 2,
     text: "About",
-    url: "/about/"
+    url: "/about"
   },
   {
     id: 3,
     text: "Projects",
-    url: "/projects/"
+    url: "/projects"
   },
   {
     id: 4,
     text: "Blog",
-    url: "/blog/"
+    url: "/blog"
   },
   {
     id: 5,
     text: "Contact",
-    url: "/contact/"
+    url: "/contact"
   }
 ];
 

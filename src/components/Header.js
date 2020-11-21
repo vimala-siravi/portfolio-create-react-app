@@ -1,11 +1,12 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import pageLinks from "../constants/pageLinks";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" sticky="top" bg="light">
-      <Navbar.Brand href="/" style={{ fontWeight: "500" }}>
+      <Navbar.Brand as={Link} to="/" style={{ fontWeight: "500" }}>
         Vimala Siravi
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -13,7 +14,9 @@ export default function Header() {
         <Nav className="ml-auto">
           {pageLinks.map((link) => (
             <li key={link.id}>
-              <Nav.Link href={link.url}>{link.text}</Nav.Link>
+              <Nav.Link as={Link} to={link.url}>
+                {link.text}
+              </Nav.Link>
             </li>
           ))}
         </Nav>

@@ -3,6 +3,7 @@ import Avatar from "../components/Avatar";
 import Title from "../components/Title";
 import skills from "../constants/badges";
 import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -48,7 +49,8 @@ export default function About() {
               </div>
               <Nav className="mt-4">
                 <Nav.Link
-                  href="/experience/"
+                  as={Link}
+                  to="/experience"
                   className="badge badgeSkills mt-4"
                   style={{
                     color: "#2caeba",
