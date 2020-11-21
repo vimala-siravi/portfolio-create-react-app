@@ -40,8 +40,10 @@ export default function About() {
                 . I even write blogs sometimes.
               </div>
               <div className="pt-4">
-                {skills.map((skillBadge) => (
-                  <span class="badge badgeSkills">{skillBadge.text}</span>
+                {skills.map((skillBadge, index) => (
+                  <span className="badge badgeSkills" key={index}>
+                    {skillBadge.text}
+                  </span>
                 ))}
               </div>
               <Nav className="mt-4">

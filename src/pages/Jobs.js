@@ -7,7 +7,6 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 export default function Jobs() {
   const [showJobDetail, displayJobDetails] = useState(true);
   const [jobDetails, setJobDetails] = useState(jobs[0]);
-  const [value, setValue] = useState(0);
 
   return (
     <header className="pt-5 mt0" style={{ height: "90vh" }}>
@@ -25,9 +24,9 @@ export default function Jobs() {
                   onClick={() => {
                     displayJobDetails(true);
                     setJobDetails(job);
-                    setValue(index);
                   }}
                   className="job-btn mb-4"
+                  key={index}
                 >
                   {job.companyName}
                 </button>

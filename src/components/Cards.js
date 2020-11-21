@@ -10,16 +10,19 @@ export default function Cards({ cardItems }) {
           className="d-inline-flex shadow p-3 mb-5 bg-white rounded zoom"
           style={{
             width: "20rem",
-            "margin-right": "25px"
+            marginRight: "25px"
           }}
+          key={cardItem.id}
         >
           <Card.Img variant="top" src={cardItem.cardItemImage} />
           <Card.Body>
             <Card.Title>{cardItem.cardItemTitle}</Card.Title>
             <Card.Text>{cardItem.cardItemContent}</Card.Text>
             {cardItem.buttons && Array.isArray(cardItem.buttons) ? (
-              cardItem.buttons.map((button) => (
-                <span class="badge badgeSkills">{button}</span>
+              cardItem.buttons.map((button, index) => (
+                <span className="badge badgeSkills" key={index}>
+                  {button}
+                </span>
               ))
             ) : (
               <>
