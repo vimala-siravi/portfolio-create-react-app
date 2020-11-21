@@ -13,11 +13,13 @@ export default function Contact() {
           </div>
           <div className="col-lg">
             <Title title="Contact" textAlignment="left" marginAlignment="0" />
-            Have a question? Hit me on my any social media handler, and I will
-            make sure to get back to you.
-            <br></br>
-            <br></br>Additionally you can send me mail at my email directly or,
-            just hit on links below to visit my social media handlers.
+            <div className="mt-5">
+              Have a question? Hit me on my any social media handler, and I will
+              make sure to get back to you.
+              <br></br>
+              <br></br>Additionally you can send me mail at my email directly
+              or, just hit on links below to visit my social media handlers.
+            </div>
             <Footer />
           </div>
         </div>
