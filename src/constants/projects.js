@@ -13,7 +13,7 @@ const projects = [
     buttons: ["JAVASCRIPT", "NODEJS"],
     cardItemDate: "Jun 30, 2019",
     cardItemImage: project1,
-    cardItemFooterUrl: "https://github.com/vimbo95/report"
+    cardItemFooterUrl: "https://github.com/vimala95/report"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const projects = [
     buttons: ["REACT"],
     cardItemDate: "Sep 15, 2019",
     cardItemImage: project2,
-    cardItemFooterUrl: "https://github.com/vimbo95/jsx-compiler"
+    cardItemFooterUrl: "https://github.com/vimala95/jsx-compiler"
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const projects = [
     buttons: ["REACT"],
     cardItemDate: "Nov 17, 2020",
     cardItemImage: project3,
-    cardItemFooterUrl: "https://github.com/vimbo95/Slideshow-App"
+    cardItemFooterUrl: "https://github.com/vimala95/Slideshow-App"
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const projects = [
     buttons: ["REACT"],
     cardItemDate: "Nov 17, 2020",
     cardItemImage: project4,
-    cardItemFooterUrl: "https://github.com/vimbo95/Sorting-App"
+    cardItemFooterUrl: "https://github.com/vimala95/Sorting-App"
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const projects = [
     buttons: ["REACT"],
     cardItemDate: "Nov 30, 2020",
     cardItemImage: project5,
-    cardItemFooterUrl: "https://github.com/vimbo95/Portfolio"
+    cardItemFooterUrl: "https://github.com/vimala95/Portfolio"
   }
 ];
 
