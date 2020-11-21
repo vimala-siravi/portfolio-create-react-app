@@ -5,7 +5,9 @@ import pageLinks from "../constants/pageLinks";
 export default function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" sticky="top" bg="light">
-      <Navbar.Brand href="/">Vimala Siravi</Navbar.Brand>
+      <Navbar.Brand href="/" style={{ fontWeight: "500" }}>
+        Vimala Siravi
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
