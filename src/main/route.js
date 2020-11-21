@@ -5,14 +5,16 @@ import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
+import Jobs from "../pages/Jobs";
 
 const Main = () => (
   <Switch>
-    <Route exact path="/" component={Home} />
-    <Route exact path="/about/" component={About} />
-    <Route exact path="/projects/" component={Projects} />
-    <Route exact path="/blog/" component={Blog} />
-    <Route exact path="/contact/" component={Contact} />
+    <Route exact={true} path="/" component={Home} />
+    <Route exact={true} path="/about/" component={About} />
+    <Route exact={true} path="/experience/" component={Jobs} />
+    <Route exact={true} path="/projects/" component={Projects} />
+    <Route exact={true} path="/blog/" component={Blog} />
+    <Route exact={true} path="/contact/" component={Contact} />
   </Switch>
 );
 

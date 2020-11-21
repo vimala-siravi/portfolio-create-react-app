@@ -2,6 +2,7 @@ import React from "react";
 import Avatar from "../components/Avatar";
 import Title from "../components/Title";
 import skills from "../constants/badges";
+import { Nav } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -15,7 +16,7 @@ export default function About() {
             <Title title="About Me" textAlignment="left" marginAlignment="0" />
             <div className="mt-2">
               <i> Always be curious about what and why.</i>
-              <div className="mt-5">
+              <div className="mt-4">
                 <strong>Vimala Sirvi,</strong> Software Developer from{" "}
                 <a
                   href="https://en.wikipedia.org/wiki/Pune"
@@ -43,6 +44,18 @@ export default function About() {
                   <span class="badge badgeSkills">{skillBadge.text}</span>
                 ))}
               </div>
+              <Nav className="mt-4">
+                <Nav.Link
+                  href="/experience/"
+                  className="badge badgeSkills mt-4"
+                  style={{
+                    color: "#2caeba",
+                    textAlign: "center"
+                  }}
+                >
+                  MORE INFO
+                </Nav.Link>
+              </Nav>
             </div>
           </div>
         </div>

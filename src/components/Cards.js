@@ -35,19 +35,21 @@ export default function Cards({ cardItems }) {
               </>
             )}
           </Card.Body>
-          <Card.Footer>
-            <a
-              href={cardItem.cardItemFooterUrl}
-              rel="noreferrer"
-              target="_blank"
-              style={{
-                fontSize: "1.5rem",
-                color: "#102a42"
-              }}
-            >
-              <FaGithub></FaGithub>
-            </a>
-          </Card.Footer>
+          {cardItem && cardItem.cardItemFooterUrl ? (
+            <Card.Footer>
+              <a
+                href={cardItem.cardItemFooterUrl}
+                rel="noreferrer"
+                target="_blank"
+                style={{
+                  fontSize: "1.5rem",
+                  color: "#102a42"
+                }}
+              >
+                <FaGithub></FaGithub>
+              </a>
+            </Card.Footer>
+          ) : null}
         </Card>
       ))}
     </>

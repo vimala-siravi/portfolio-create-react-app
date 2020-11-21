@@ -11,7 +11,7 @@ export default function Home() {
         </div>
         <div className="col-lg" style={{ textAlign: "center" }}>
           <h1>
-            Hey! I'm <b>Vimala</b>
+            Hi, I'm <b>Vimala</b>
           </h1>
           <h4 style={{ fontSize: "1rem" }}>Full Stack Web Developer</h4>
         </div>
