@@ -45,8 +45,8 @@ const projects = [
   },
   {
     id: 5,
-    cardItemTitle: "Portfolio",
-    cardItemContent: "A React Portfolio.",
+    cardItemTitle: "React Portfolio.",
+    cardItemContent: "A basic portfolio in React.",
     buttons: ["REACT"],
     cardItemDate: "Nov 30, 2020",
     cardItemImage: project5,
