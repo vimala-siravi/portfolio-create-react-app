@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-create-react-app/static/css/main.4f7dddf5.chunk.css",
-    "main.js": "/portfolio-create-react-app/static/js/main.4bbf9046.chunk.js",
-    "main.js.map": "/portfolio-create-react-app/static/js/main.4bbf9046.chunk.js.map",
+    "main.js": "/portfolio-create-react-app/static/js/main.a296443a.chunk.js",
+    "main.js.map": "/portfolio-create-react-app/static/js/main.a296443a.chunk.js.map",
     "runtime-main.js": "/portfolio-create-react-app/static/js/runtime-main.d1899cee.js",
     "runtime-main.js.map": "/portfolio-create-react-app/static/js/runtime-main.d1899cee.js.map",
     "static/css/2.1a02f21c.chunk.css": "/portfolio-create-react-app/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.840e6994.chunk.js": "/portfolio-create-react-app/static/js/2.840e6994.chunk.js",
-    "static/js/2.840e6994.chunk.js.map": "/portfolio-create-react-app/static/js/2.840e6994.chunk.js.map",
+    "static/js/2.7ec0394f.chunk.js": "/portfolio-create-react-app/static/js/2.7ec0394f.chunk.js",
+    "static/js/2.7ec0394f.chunk.js.map": "/portfolio-create-react-app/static/js/2.7ec0394f.chunk.js.map",
     "static/js/3.f1a85374.chunk.js": "/portfolio-create-react-app/static/js/3.f1a85374.chunk.js",
     "static/js/3.f1a85374.chunk.js.map": "/portfolio-create-react-app/static/js/3.f1a85374.chunk.js.map",
     "index.html": "/portfolio-create-react-app/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/portfolio-create-react-app/static/css/2.1a02f21c.chunk.css.map",
     "static/css/main.4f7dddf5.chunk.css.map": "/portfolio-create-react-app/static/css/main.4f7dddf5.chunk.css.map",
-    "static/js/2.840e6994.chunk.js.LICENSE.txt": "/portfolio-create-react-app/static/js/2.840e6994.chunk.js.LICENSE.txt",
+    "static/js/2.7ec0394f.chunk.js.LICENSE.txt": "/portfolio-create-react-app/static/js/2.7ec0394f.chunk.js.LICENSE.txt",
     "static/media/avatar.2999aa84.png": "/portfolio-create-react-app/static/media/avatar.2999aa84.png",
     "static/media/blog1.c2191568.jpeg": "/portfolio-create-react-app/static/media/blog1.c2191568.jpeg",
     "static/media/blog2.5afe2520.PNG": "/portfolio-create-react-app/static/media/blog2.5afe2520.PNG",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.d1899cee.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.840e6994.chunk.js",
+    "static/js/2.7ec0394f.chunk.js",
     "static/css/main.4f7dddf5.chunk.css",
-    "static/js/main.4bbf9046.chunk.js"
+    "static/js/main.a296443a.chunk.js"
   ]
 }
