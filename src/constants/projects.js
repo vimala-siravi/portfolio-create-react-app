@@ -50,7 +50,7 @@ const projects = [
     buttons: ["REACT"],
     cardItemDate: "Nov 30, 2020",
     cardItemImage: project5,
-    cardItemFooterUrl: "https://github.com/vimala95/Portfolio"
+    cardItemFooterUrl: "https://github.com/vimala95/portfolio-create-react-app"
   }
 ];
 
