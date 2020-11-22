@@ -17,13 +17,13 @@ const blogs = [
   },
   {
     id: 2,
-    cardItemTitle: "Portfolio.",
-    cardItemContent: "A basic guide to the React Portfolio.",
+    cardItemTitle: "React Portfolio.",
+    cardItemContent: "A short, simple portfolio with React & GitHub Pages",
     buttons: "REACT",
-    cardItemDate: "Nov 30, 2020",
+    cardItemDate: "Nov 22, 2020",
     cardItemImage: blog2,
     cardItemUrl:
-      "https://medium.com/@vimala1995/display-json-data-in-html-with-one-function-call-d9e8232bdd1d"
+      "https://vimala1995.medium.com/a-short-simple-portfolio-with-react-github-pages-b1e6f3ca92b1"
   }
 ];
 
