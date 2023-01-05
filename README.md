@@ -6,14 +6,14 @@
 
 ![alt text](https://github.com/vimala95/portfolio-create-react-app/blob/master/src/blog2.PNG?raw=true)
 
-You can visit my portfolio at https://vimala95.github.io/portfolio-create-react-app
+You can visit my portfolio at https://vimala-siravi.github.io/portfolio-create-react-app/#/
 
 ## Getting Started
 
 Clone the repo
 
 ```
-https://github.com/vimala95/portfolio-create-react-app.git
+https://github.com/vimala-siravi/portfolio-create-react-app.git
 ```
 
 Install the dependencies
