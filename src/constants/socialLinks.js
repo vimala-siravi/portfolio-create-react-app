@@ -10,7 +10,7 @@ const socialLinks = [
   {
     id: 2,
     icon: <FaGithub></FaGithub>,
-    url: "https://github.com/vimala95"
+    url: "https://github.com/vimala-siravi"
   },
   {
     id: 3,
