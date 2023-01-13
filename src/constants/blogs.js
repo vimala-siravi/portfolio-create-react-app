@@ -1,5 +1,6 @@
 import blog1 from "../blog1.jpeg";
 import blog2 from "../blog2.PNG";
+import blog3 from "../blog3.gif";
 
 const blogs = [
   {
@@ -24,6 +25,16 @@ const blogs = [
     cardItemImage: blog2,
     cardItemUrl:
       "https://vimala1995.medium.com/a-short-simple-portfolio-with-react-github-pages-b1e6f3ca92b1"
+  },
+  {
+    id: 3,
+    cardItemTitle: "The secret behind JavaScript’s asynchronous nature",
+    cardItemContent: "The secret behind JavaScript’s asynchronous nature",
+    buttons: "Event Loop",
+    cardItemDate: "Jul 4, 2022",
+    cardItemImage: blog3,
+    cardItemUrl:
+      "https://medium.com/globant/the-secret-behind-javascripts-asynchronous-nature-c9837ed0e723"
   }
 ];
 

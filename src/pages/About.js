@@ -28,7 +28,7 @@ export default function About() {
                   Pune
                 </a>
                 , India.
-                <br></br>I am a passionate Web developer, with a 2+ years of
+                <br></br>I am a passionate Web developer, with a 4 years of
                 industrial experience. I love coding, especially in{" "}
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"

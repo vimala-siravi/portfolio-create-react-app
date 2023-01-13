@@ -22,6 +22,10 @@ const skills = [
   {
     id: 6,
     text: "Jest"
+  },
+  {
+    id: 7,
+    text: "React Testing Library"
   }
 ];
 

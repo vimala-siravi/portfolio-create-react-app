@@ -5,7 +5,7 @@ const socialLinks = [
   {
     id: 1,
     icon: <FaLinkedin></FaLinkedin>,
-    url: "https://in.linkedin.com/in/vimala-siravi-66891b126"
+    url: "https://in.linkedin.com/in/vimala-siravi"
   },
   {
     id: 2,
